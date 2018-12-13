@@ -38,3 +38,4 @@ public class JugglingAlgorithm {
 			return gcd(b, a % b);
 	}
 }
+//Time complexity : O(n)
