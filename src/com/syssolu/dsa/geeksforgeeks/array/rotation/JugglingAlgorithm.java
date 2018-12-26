@@ -1,5 +1,11 @@
 package com.syssolu.dsa.geeksforgeeks.array.rotation;
 
+/**
+ * Java program to rotate an array by d elements
+ * TC : O(n)
+ * SC : O(1)
+ */
+
 import java.util.Arrays;
 
 public class JugglingAlgorithm {
