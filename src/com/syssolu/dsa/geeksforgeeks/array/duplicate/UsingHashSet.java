@@ -14,7 +14,6 @@ import java.util.HashSet;
 
 public class UsingHashSet {
 	public static void main(String args[]) {
-		UsingHashSet usingTempArray = new UsingHashSet();
 		String[] strArray = {"abc", "def", "mno", "xyz", "pqr", "xyz", "def"};
 		HashSet<String> hashSet = new HashSet<String>();
 		for (String s : strArray) {

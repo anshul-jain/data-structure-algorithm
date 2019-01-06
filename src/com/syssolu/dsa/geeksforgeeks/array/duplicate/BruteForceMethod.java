@@ -13,7 +13,6 @@ package com.syssolu.dsa.geeksforgeeks.array.duplicate;
 
 public class BruteForceMethod {
 	public static void main(String args[]) {
-		BruteForceMethod usingTempArray = new BruteForceMethod();
 		String[] strArray = {"abc", "def", "mno", "xyz", "pqr", "xyz", "def"};
 		for (int i = 0; i < strArray.length; i++) {
 			for (int j = i + 1; j < strArray.length; j++) {
@@ -23,5 +22,4 @@ public class BruteForceMethod {
 			}
 		}
 	}
-
 }
