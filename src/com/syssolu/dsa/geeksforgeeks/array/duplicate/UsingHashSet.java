@@ -3,7 +3,7 @@ package com.syssolu.dsa.geeksforgeeks.array.duplicate;
 import java.util.HashSet;
 
 /**
- * Java program to rotate an array by d elements
+ * Java program to find duplicate element in array
  * TC : O(n)
  * SC : NA
  */

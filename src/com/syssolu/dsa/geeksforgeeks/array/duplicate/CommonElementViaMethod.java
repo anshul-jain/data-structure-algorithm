@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.HashSet;
 
 /**
- * Java program to rotate an array by d elements
+ * Java program to find Common Element Via Method in array
  * TC : NA
  * SC : NA
  */

@@ -1,7 +1,7 @@
 package com.syssolu.dsa.geeksforgeeks.array.duplicate;
 
 /**
- * Java program to rotate an array by d elements
+ * Java program to find duplicate element in array
  * TC : O(n^2)
  * SC : NA
  */
