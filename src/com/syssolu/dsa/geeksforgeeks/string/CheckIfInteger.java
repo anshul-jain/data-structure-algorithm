@@ -11,7 +11,7 @@ import java.util.regex.Pattern;
 public class CheckIfInteger {
 	public static void main(String args[]) {
 		String str = "-1";
-		String regex = "^-?\\d+$";
+		String regex = "^-?\\d+$"; // "^-?\\D+$" checks non integer
 		Pattern pattern = Pattern.compile(regex);
 		Matcher matcher = pattern.matcher(str);
 		if (matcher.find()) {
