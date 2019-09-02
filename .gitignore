@@ -1,0 +1,6 @@
+# GIT Ignore global
+
+# IntelliJ
+.DS_Store
+.idea/
+*.iml
