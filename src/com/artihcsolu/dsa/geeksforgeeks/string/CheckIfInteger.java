@@ -1,4 +1,4 @@
-package com.syssolu.dsa.geeksforgeeks.string;
+package com.artihcsolu.dsa.geeksforgeeks.string;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

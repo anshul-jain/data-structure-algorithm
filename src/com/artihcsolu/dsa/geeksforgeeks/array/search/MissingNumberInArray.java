@@ -1,4 +1,4 @@
-package com.syssolu.dsa.geeksforgeeks.array.search;
+package com.artihcsolu.dsa.geeksforgeeks.array.search;
 
 /**
  * Java program to rotate an array by d elements

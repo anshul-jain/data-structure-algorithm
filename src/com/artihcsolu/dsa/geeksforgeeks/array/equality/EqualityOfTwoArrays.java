@@ -1,4 +1,4 @@
-package com.syssolu.dsa.geeksforgeeks.array.equality;
+package com.artihcsolu.dsa.geeksforgeeks.array.equality;
 
 import java.util.Arrays;
 

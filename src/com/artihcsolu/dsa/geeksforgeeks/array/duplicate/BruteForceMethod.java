@@ -1,4 +1,4 @@
-package com.syssolu.dsa.geeksforgeeks.array.duplicate;
+package com.artihcsolu.dsa.geeksforgeeks.array.duplicate;
 
 /**
  * Java program to find duplicate element in array

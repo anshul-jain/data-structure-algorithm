@@ -1,4 +1,4 @@
-package com.syssolu.dsa.geeksforgeeks.string;
+package com.artihcsolu.dsa.geeksforgeeks.string;
 
 /**
  * Java program to swap first and last character in string
