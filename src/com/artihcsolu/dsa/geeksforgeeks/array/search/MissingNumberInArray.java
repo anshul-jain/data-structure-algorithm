@@ -7,7 +7,8 @@ package com.artihcsolu.dsa.geeksforgeeks.array.search;
  */
 
 /*
- * We compare each element of an array with other elements. If any two elements are found equal, we declare them as duplicates.
+ * We compare each element of an array with other elements. If any two elements are found equal, we declare them as
+ * duplicates.
  * Performance is not good if an array contains lots of elements
  * */
 
@@ -15,9 +16,9 @@ public class MissingNumberInArray {
 	public static void main(String args[]) {
 		int n = 8;
 		int[] a = {1, 4, 5, 3, 7, 8, 6};
-		int sumOfNnumbers = sumOfNumbers(n);
+		int sumOfNumbers = sumOfNumbers(n);
 		int sumOfElements = sumOfElements(a);
-		int missingElement = sumOfNnumbers - sumOfElements;
+		int missingElement = sumOfNumbers - sumOfElements;
 		System.out.println(missingElement);
 	}
 
