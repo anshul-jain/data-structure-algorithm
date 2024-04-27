@@ -28,7 +28,7 @@ public class CountOccurrences {
 			if (current.data == element) {
 				count++;
 			}
-			current =  current.next;
+			current = current.next;
 		}
 		return count;
 	}
