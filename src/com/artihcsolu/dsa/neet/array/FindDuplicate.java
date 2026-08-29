@@ -1,5 +1,6 @@
 package com.artihcsolu.dsa.neet.array;
 
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -59,10 +60,19 @@ As we iterate through the array, we check whether the current value is already p
         return false;
     }
 
+    /* Option 4
+     We will removing the duplicate elements and then compaire the length with the original array.
+     * TC : O(n)
+     * SC : O(n)
+     */
+    public boolean hasDuplicateViaLength(int[] nums) {
+        return Arrays.stream(nums).distinct().count() < nums.length;
+    }
+
     public static void main(String[] args) {
-        int nums[] = {1, 2, 3, 3};
+        int nums[] = {1, 2, 3, 4};
         FindDuplicate findDuplicate = new FindDuplicate();
 
-        System.out.println(findDuplicate.hasDuplicateViaHashSet(nums));
+        System.out.println(findDuplicate.hasDuplicateViaLength(nums));
     }
 }
