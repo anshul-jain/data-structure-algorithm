@@ -1,5 +1,8 @@
 package com.artihcsolu.dsa.neet.array;
 
+import java.util.HashSet;
+import java.util.Set;
+
 /*
 * Given an integer array nums, return true if any value appears more than once in the array, 
 otherwise return false.
@@ -27,7 +30,7 @@ public class FindDuplicate {
     /* Option 2
      If we sort the array, then any duplicate values will appear next to each other.
 Sorting groups identical elements together, so we can simply check adjacent positions to detect duplicates
-     * TC : O(nlogn)
+     * TC : O(n log n)
      * SC : O(1) Or O(n)
      */
     public boolean hasDuplicateViaSorting(int[] nums) {
@@ -39,10 +42,27 @@ Sorting groups identical elements together, so we can simply check adjacent posi
         return false;
     }
 
+    /* Option 3
+     We can use a hash set to efficiently keep track of the values we have already encountered.
+As we iterate through the array, we check whether the current value is already present in the set.
+     * TC : O(n)
+     * SC : O(n)
+     */
+    public boolean hasDuplicateViaHashSet(int[] nums) {
+        Set<Integer> element = new HashSet<Integer>();
+        for (int num : nums) {
+            if(element.contains(num)){
+                return true;
+            }
+            element.add(num);
+        }
+        return false;
+    }
+
     public static void main(String[] args) {
         int nums[] = {1, 2, 3, 3};
         FindDuplicate findDuplicate = new FindDuplicate();
 
-        System.out.println(findDuplicate.hasDuplicateViaSorting(nums));
+        System.out.println(findDuplicate.hasDuplicateViaHashSet(nums));
     }
 }
